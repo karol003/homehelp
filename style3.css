@@ -1,0 +1,633 @@
+/* Geral */
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+body {
+    background: #EEEFEF;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+
+
+/* menu inicial pc */
+
+.logo img{
+   width: 140px;
+   margin-left: -1610px;
+   
+
+}
+
+header{
+    padding: 20px 0%;
+    text-decoration: none;
+    text-align: right;
+    background-color: rgba(73, 64, 64, 0.027);
+    font-weight: 540;
+    font-size: 20px;
+  
+}
+
+header a {
+    color: #212C2D;
+    text-decoration: none;
+    padding: 50px;
+    
+
+
+}
+.menu-pc a{
+        
+    align-items: center;
+    
+
+}
+
+
+
+header > .interface {
+    display:flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     margin-left: 900px;
+     
+}
+header nav ul {
+    list-style-type: none;
+   
+}
+
+header nav ul {
+    display: block;
+    padding: 0 40px;
+    font-size: 20px;
+    
+
+}
+
+
+.menu-pc a:hover{
+ transition: all 0.4s ease;
+  color:#0CAC1F;}
+
+/* estilo menu mobile */
+
+
+
+
+/* pagina inicial */
+
+#inicio {
+    align-items: center;
+    display: block;
+    text-align: center;
+}
+
+.imageminicio img{
+    width: 400px;
+    margin-top: -500px;
+   margin-left: 900px;
+
+}
+
+#linkes {
+    padding: 2px;
+    height: 10%;
+    margin-left: -1100px;
+    margin-top:-250px;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#linkes .link-play img{
+    width: 200px;
+    margin-right: 100px;
+    margin-left: 300px;
+    cursor: pointer;
+    
+
+}
+#linkes .link-apple img{
+    width: 200px;
+    margin-top: -10px;
+    cursor: pointer;
+
+    
+}
+
+h2 {
+    display: block;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-right: 832px;
+    color: #546162;
+    font-size: 70px;
+    text-align: center;
+}
+.txt-inicio h3 {
+    display: block;
+    font-size: 20px;
+    margin-left: -800px;
+    color:#0CAC1F;
+    font-size: 80px;
+   margin-top: -60px;
+   text-align: center;
+}
+
+.txt-inicio p{
+    margin-left: -800px;
+    font-size: 21px;
+    font-weight: 500;
+    color: #546162;
+}
+
+
+
+
+/* sobre nos */
+
+#sobre {
+   
+    margin-top: -43px;
+    padding-top: 0.01415px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#sobre h4{
+    padding-top: 180px;
+    font-weight:500;
+    text-align: center;
+    margin-right: -90px ;
+    font-size: 40px;
+    color:#0CAC1F;
+    margin-bottom: 100px;
+    
+    
+}
+#sobre .comeco h4{
+    margin-top: 300px;
+
+}
+#sobre p{
+    margin-top: -30px;
+    font-size: 30px;
+    text-align: center;
+    color: #212c2db0;
+    border: 100px;
+    margin-left: 250px;
+
+
+}
+
+#sobre img{
+    width: 300px;
+    margin-bottom: 200px;
+    margin-top: -250px;
+    margin-left: -100px;
+    
+}
+
+/* contato*/
+
+.faixa{
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contato {
+    background-color: #212c2d11;
+}
+#contato h1{
+    padding-top: 100px;
+    font-weight:500;
+    text-align: left;
+    margin-left:0;
+    font-size: 40px;
+    color:#0CAC1F;
+    margin-bottom: 100px;
+    
+}
+
+#contato h3{
+    font-size: 20px;
+    padding: 3px;
+    text-align: left;
+    color: #212C2D;
+    
+    
+  
+}
+
+.menu-mobile img{
+    display: none;
+}
+    
+
+#contato .classe{
+     font-weight: bold;
+     font-size: 25px;
+     color: #0CAC1F;
+
+}
+#contato .classee{
+    font-weight: bold;
+    font-size: 25px;
+    color: #0CAC1F;
+
+}
+
+
+.faixa button{
+    text-align: center;
+    font-size: 22px;
+    border-radius: 30px;
+     border: none;
+    background-color:#0CAC1F;
+    padding: 17px;
+    width: 230px;
+   
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.faixa button:hover {
+
+    transform: scale(1.05);
+    display: inline-block;
+    transition: 0.05s;
+
+}
+
+#contato .faixa img {
+    width: 300px;
+    margin-left: 1300px;
+    margin-bottom: 200px;
+    margin-top: -250px;
+}
+
+.faixa .txt-faixa  .redes{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 3px;
+    text-align: left;
+    color: #212C2D;
+    margin-left: 1200px;
+    margin-top: -360px;
+    bottom: 100px;
+
+}
+ .redes i{
+    margin-left: 50px;
+    cursor: pointer;
+   align-items: center;
+   display: flex;
+   padding: 5px;
+}
+
+/* rodape */
+
+footer {
+    text-align: center;
+    background-color: #212C2D;
+    width: 100%;
+    height: 120px;
+    position:unset;
+    bottom: 0;
+    left: 0;   
+}
+
+footer p{
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+footer .redes i{
+    color: #ffffff;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-mb-icon {
+    display: none;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.logo-mobile img{
+    display: none;
+}
+
+/* responsividade */
+
+@media screen and (max-width: 730px) {
+
+    html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    .logo img {
+        display: none;
+    }
+
+    header .menu-pc {
+        margin: 0;
+        margin-right: 1170px;
+       display: none;
+
+    }
+    .menu-mb-icon button{
+        color: #212C2D;
+        border:none;
+        width: 5px;
+    }
+    .nav-item{
+        margin: 0 20px;
+    }
+    .nav-link {
+        text-decoration: none;
+        font-size: 1.15rem;
+        color: #fff;
+        font-weight: 400;
+    }
+    .menu-mb-icon {
+        display: block;
+        margin-right: 50px;
+        margin-top: -30px;
+        
+    }
+    .menu-mb-icoin img{
+        width: 10000px;
+        cursor: pointer;
+        padding:0;
+        cursor: hand;
+    }
+    .menu-mobile ul {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        padding-bottom: 1px;
+        margin-right: -50px;
+
+    }
+    .menu-mobile a {
+        color: #212c2dad;
+        font-weight: 600;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;}
+
+    .mobile-menu .nav-link {
+        cursor: pointer;
+    }
+
+    .menu-mobile .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .open {
+        display: block;
+    }
+
+     .logo-mobile img{
+        display:block;
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    #inicio{
+        
+        width: 100%;
+        margin: 0;
+        padding-bottom: 150px;
+    }
+
+    .txt-inicio{
+
+       text-align: center;
+        margin-left: -50px;
+        padding: 0;
+        display: block;
+
+    }
+    .imageminicio img{
+        width: 300px;
+        bottom: 100%;
+        margin: 0;
+        margin-top: -900px;
+        margin-bottom: 900px;
+        margin-left:15px;
+        margin-right: 0;
+
+    }
+    #inicio .txt-inicio h2 {
+        
+        font-size: 30px;
+        margin-left: 60px;
+        bottom: 200px;
+     
+    }
+    #inicio .txt-inicio h3 {
+        font-size: 30px;
+        margin-left: 60px;
+        bottom: 200px;
+    }
+    #inicio .txt-inicio .pe{
+        text-align: left;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #inicio .txt-inicio p {
+        font-size: 19px;
+        padding:0%;
+        margin-left: 55px;
+        
+
+    }
+
+    #linkes {
+       margin: 0%;
+        display:flex;
+        width: 20px;
+        align-items:center;
+        margin-bottom:300px;
+        margin-left: 210px;
+        padding-bottom: 100px;
+        margin-top: -550px;
+    }
+
+    #linkes .link-apple img{
+       margin: 0;
+       width: 150px;
+    
+        
+
+    }
+    #linkes .link-play img{
+        margin: 0;
+        margin-right: 10px;
+        margin-left: -60px;
+        width: 150px;
+  }
+  .faixa .txt-faixa {
+    margin-left: 0x;
+    margin: 0%;
+  } 
+  .faixa .txt-faixa .redes {
+    margin-left: 0;
+    padding-left: 0;
+  }
+    
+
+    #contato h1{
+        margin: 0%;
+        margin-left: 0;
+        text-align: center;
+    }
+ 
+    #contato .txt-faixa h3{
+        margin-left: 0;
+        text-align: center;   
+        display: block;  
+    }
+
+    .faixa button {
+        margin-left: 130px;
+        text-align: center;
+    }
+
+
+    .faixa .txt-faixa .redes {
+
+        margin-left: 110px;
+        padding-top: 400px;
+        
+    }
+
+    .faixa .txt-faixa .redes i{
+        text-align: center;
+        margin-right: 180px;
+        left: 180px;
+        align-items: center;
+    }
+
+    .txt-inicio h2 {
+
+        margin-left: 0;
+        margin-top: 0;
+        margin: 0;
+        font-size: 30px;
+        margin-top: 50px;
+
+    }
+
+    .txt-inicio h3 {
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .txt-inicio .pe{
+
+        text-align:center;
+        margin: 0;
+        margin-top: 740px;
+        
+
+    }
+
+
+    #sobre {
+        padding-bottom: 150px;
+        margin-top: -700px;
+    }
+
+    #sobre .sobre h4{
+        margin: 0;
+        text-align: center;
+        margin-bottom: 30px;
+        
+    }
+    #sobre .sobre p{
+        margin: 0;
+        
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+        
+    }
+    #sobre .sobre img{
+        display: block;
+        width: 180px;
+        margin: 0;
+        margin-left: 110px;
+        margin-top: 30px;
+    }
+
+    #contato {
+        
+        margin-top: -110px;
+        margin-bottom: -100px;
+        left: 70px;
+     }
+
+     #contato h1 {
+        font-size: 30px;
+        margin-left:70px ;
+     }
+
+    #contato .txt-faixa {
+        padding: 0;
+        margin-right: 70px;
+    }
+    #contato .txt-faixa h3 {
+        margin-left: 70px;
+    }
+
+    #contato .faixa button {
+        align-items: center;
+        margin-left: 100px;
+    }
+
+    #contato .redes {
+        text-align: center;
+        left: 70px;
+        margin-left: 70px;
+    }
+    #contato .redes i {
+        margin-left: 70px;
+        margin-right: 0;
+    }
+    
+}
+
+
+ 
+
+
+
+
