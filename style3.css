@@ -352,6 +352,11 @@ footer .redes i{
 
 @media screen and (max-width: 730px) {
 
+  
+    @keyframes slidein {
+        none;
+    }
+
     html, body{
         width: 100%;
         height: 100%;
@@ -434,7 +439,7 @@ footer .redes i{
         
         width: 100%;
         margin: 0;
-        padding-bottom: 150px;
+        padding-bottom: 350px;
     }
 
     .txt-inicio{
@@ -506,6 +511,8 @@ footer .redes i{
         margin-left: -60px;
         width: 150px;
   }
+  
+  
   .faixa .txt-faixa {
     margin-left: 0x;
     margin: 0%;
@@ -515,7 +522,7 @@ footer .redes i{
     padding-left: 0;
   }
     
-
+    
     #contato h1{
         margin: 0%;
         margin-left: 0;
@@ -575,14 +582,16 @@ footer .redes i{
 
 
     #sobre {
-        padding-bottom: 150px;
+        padding-bottom: 100px;
         margin-top: -700px;
     }
 
     #sobre .sobre h4{
+        font-size: 50px;
         margin: 0;
+        margin-top: -100px;
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         
     }
     #sobre .sobre p{
@@ -604,13 +613,13 @@ footer .redes i{
 
     #contato {
         
-        margin-top: -110px;
+        
         margin-bottom: -100px;
         left: 70px;
      }
 
      #contato h1 {
-        font-size: 30px;
+        font-size: 35px;
         margin-left:70px ;
      }
 
@@ -637,9 +646,9 @@ footer .redes i{
         margin-right: 0;
     }
     
-}
-
-
+    
+      }
+      
  
 
 
