@@ -86,14 +86,27 @@ header nav ul {
     align-items: center;
     display: block;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .imageminicio img{
     width: 400px;
     margin-top: -500px;
    margin-left: 900px;
-
+   animation-duration: 3s;
+   animation-name: slidein;
 }
+@keyframes slidein {
+    from {
+      margin-left: 90%;
+      width: 400px;
+    }
+  
+    to {
+      margin-left: 47,5%;
+      width: 400px;
+    }
+  }
 
 #linkes {
     padding: 2px;
@@ -155,9 +168,10 @@ h2 {
 
 #sobre {
    
-    margin-top: -43px;
+    background-color: #fff;
+    margin-top: 100px;
     padding-top: 0.01415px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding-bottom: 0;
     display: flex;
     align-items: center;
